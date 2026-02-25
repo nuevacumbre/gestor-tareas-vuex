@@ -1,0 +1,49 @@
+{
+  "tareas": [
+    {
+      "id": "1",
+      "texto": "Aprender los fundamentos de Vuex",
+      "completada": true
+    },
+    {
+      "id": "2",
+      "texto": "Configurar el store modular",
+      "completada": true
+    },
+    {
+      "id": "3",
+      "texto": "Implementar acciones asíncronas con Axios",
+      "completada": false
+    },
+    {
+      "id": "4",
+      "texto": "Conectar componentes al store usando mapState",
+      "completada": false
+    },
+    {
+      "id": "5",
+      "texto": "Manejar errores de manera elegante",
+      "completada": false
+    },
+    {
+      "id": "6",
+      "texto": "Aplicar buenas prácticas de seguridad en el frontend",
+      "completada": false
+    },
+    {
+      "id": "5962",
+      "texto": "Generar test unitarios",
+      "completada": false
+    },
+    {
+      "id": "78e8",
+      "texto": "Formatear Código",
+      "completada": false
+    },
+    {
+      "id": "3d5f",
+      "texto": "Crear TEST TDD",
+      "completada": false
+    }
+  ]
+}
