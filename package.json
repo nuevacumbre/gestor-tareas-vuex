@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
@@ -18,6 +21,14 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.2",
-    "vite": "^7.3.1"
+    "@vitest/coverage-v8": "^4.0.18",
+    "@vitest/ui": "^4.0.18",
+    "@vitest/web-worker": "^4.0.18",
+    "@vue/test-utils": "^2.4.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jsdom": "^28.1.0",
+    "sinon": "^21.0.1",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
   }
 }
